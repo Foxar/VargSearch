@@ -1,0 +1,22 @@
+.nav {
+  background-color: black;
+  color: white;
+}
+
+.ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+}
+
+.li {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 0 2em;
+  padding: 0.5em;
+}
+
+
+.li:hover{
+  background-color: #303030;
+}
