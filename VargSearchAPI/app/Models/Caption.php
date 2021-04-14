@@ -11,7 +11,7 @@ class Caption extends Model
 
     protected $table = "captions";
     protected $id = "id";
-    protected $timestamps = false;
+    public $timestamps = false;
     protected $connection = 'pgsql';
 
 
