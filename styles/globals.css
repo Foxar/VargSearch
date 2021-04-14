@@ -14,3 +14,7 @@ a {
 * {
   box-sizing: border-box;
 }
+
+input#contained-button-search{
+  display:none;
+}

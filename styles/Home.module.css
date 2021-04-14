@@ -5,7 +5,7 @@
     align-items: stretch;
     padding: 5em 5em 0 5em;
     min-height: 100vh;
-    background: linear-gradient(135deg, rgba(147,206,222,1) 0%, rgba(90,155,173,1) 63%, rgba(36,76,87,1) 100%);
+    background-color: #c9cdd1;
     border-top-left-radius: 0px;
 }
 
@@ -24,7 +24,7 @@
 .searchButtonContainer{
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
-    background-color: #93cede;
+    background-color: #b3d0b6;
 }
 
 .home h1 {
@@ -38,3 +38,22 @@
     mix-blend-mode: multiply;
 }
 
+.searchResults {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0 10%;
+}
+
+.searchResult {
+    margin: 1em;
+}
+
+.searchResult > div {
+    display: flex;
+    padding: 1em;
+    background-color: rgb(155, 155, 191);
+}
+
+.searchResult > div > * {
+    margin-right: 2em;
+}
