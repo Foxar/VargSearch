@@ -45,7 +45,7 @@ class Home extends React.Component {
 
   handleSubmit() {
     console.log("Fetching phrase " + this.state.search);
-    fetch('http://localhost:8000/api/caption?query=' + this.state.search + '&gen=' + this.state.searchGenerated).
+    fetch('http://localhost:8000/api/caption?query=' + this.state.search + '&gen=' + !this.state.searchGenerated).
       then(res => res.json()).
       then((data) => {
         console.log("Search results:")
@@ -79,7 +79,7 @@ class Home extends React.Component {
                 <Checkbox checked={this.state.searchGenerated} onChange={this.handleChange}
                   name="generatedCheck" color="primary" />
               }
-              label="Search generated captions?"
+              label="Search auto-generated captions?"
             />
           </div>
           <SearchResults waiting={awaitingSearchResults} loaded={receivedSearchResults} results={results} />
