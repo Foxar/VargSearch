@@ -1,11 +1,10 @@
-## VargSearch: A Vinesauce Youtube look-up tool
+## YTSearch: A Youtube look-up tool
 
 
 #### About
-This is a simple tool allowing you to search through captions of the YouTube uploads of Vinesauce Joel's streams.
+This is a simple tool allowing you to search through captions of the YouTube uploads of a given youtube channel.
 t's designed to allow for easy search through the stream's contents and help finding particular memes or bits
-that might be otherwise difficult to find. At the time, only searches of Vinesauce Joel's streams uploaded to the primary YouTube channel,
-(Vargskelethor Joel) is available. In the future, site's functionality might be expanded to other channels associated with Vinesauce.
+that might be otherwise difficult to find. 
 
 #### How does it work?
 The website utilizes YouTube caption system. It automatically downloads captions available from all video uploads, catalogues them
